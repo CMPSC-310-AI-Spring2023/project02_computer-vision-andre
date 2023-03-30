@@ -11,7 +11,6 @@ For my project, I found a data set of NFL images on kaggle and will be using thi
 
 ## Learning Agent
 
-
 Describe the methodology used for your learning agent (algorithms, the goals of learning, inputs, outputs, etc.)
 
 The algorithm behind this project takes in the dataset of images, and returns modified images that highlight the key aspects of the image that are used for the project. These aspects are elements such as the hash marks, the yard numbers and the yard lines. The algorithm uses the OpenCV library and matplotlib. The algorithm goes through each shape in the image, and labels each shape. Then for each shape it checks the label name and if it matches a specific value, an annotation is added. it then displays the new image with the imshow() function which now has all the new shapes on top of the old image over the key elements.
@@ -61,4 +60,3 @@ While working on the lab and tutorial code, i was able ot implement some additio
 Describe the details of your team working strategy, specifically explain how did you complete this work as a team and describe the specific contributions of each team member.
 
 Single team member.
-
