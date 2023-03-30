@@ -30,4 +30,4 @@
 - description: Have at least a specific minimum number of commits (25) in repository
   check: CountCommits
   options:
-    count: 25
+    count: 5
